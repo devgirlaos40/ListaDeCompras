@@ -11,6 +11,8 @@ function salvarItem() {
     const itemNovo = document.getElementById("input-item");
     // itemNovo.setAttribute("value", "1234567")
     console.log(itemNovo.value);
+
+
     /*cria o li */
     const itemDaLista = document.createElement("li");
         /*cria a primeira div */
@@ -68,18 +70,18 @@ function salvarItem() {
                     imgBotaoDeletar.alt = "lixeira simbolizando exclusão de item";
 
 
-
-                botaoEditar.appendChild(imgBotaoEditar);
-                botaoDeletar.appendChild(imgBotaoDeletar);
-                itemContainerBotoes.appendChild(botaoEditar);
-                itemContainerBotoes.appendChild(botaoDeletar);
-                checkboxContainer.appendChild(checkboxItem);
-                checkboxContainer.appendChild(labelCheckbox);
-                checkboxContainer.appendChild(itemChecked);
-                itemContainerNome.appendChild(checkboxContainer);
-                itemContainerNome.appendChild(nomeDoItem);
-                containerItemDaLista.appendChild(itemContainerNome);
-                containerItemDaLista.appendChild(itemContainerBotoes);
-                itemDaLista.appendChild(containerItemDaLista);
-                listaComprar.appendChild(itemDaLista);
+// Aninhando os elementos
+    botaoEditar.appendChild(imgBotaoEditar);
+    botaoDeletar.appendChild(imgBotaoDeletar);
+    itemContainerBotoes.appendChild(botaoEditar);
+    itemContainerBotoes.appendChild(botaoDeletar);
+    checkboxContainer.appendChild(checkboxItem);
+    checkboxContainer.appendChild(labelCheckbox);
+    checkboxContainer.appendChild(itemChecked);
+    itemContainerNome.appendChild(checkboxContainer);
+    itemContainerNome.appendChild(nomeDoItem);
+    containerItemDaLista.appendChild(itemContainerNome);
+    containerItemDaLista.appendChild(itemContainerBotoes);
+    itemDaLista.appendChild(containerItemDaLista);
+    listaComprar.appendChild(itemDaLista);
 }
