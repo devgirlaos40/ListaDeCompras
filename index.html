@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,7 +10,6 @@
         rel="stylesheet">
     <link rel="stylesheet" href="./styles.css" />
 </head>
-
 <body>
     <main class="container-lista-de-compras">
         <img src="img/bag.png" alt="sacola de compras">
@@ -24,37 +22,18 @@
             <ul id="lista-comprar">
                 <h2>Lista de Compras</h2>
                 <hr />
-                 <li> <!--/* itemDalista */ -->
-                    <div class="container-item-da-lista"> <!--/* containerItemLista*/-->
-                        <div class="item_container">
-                            <div>
-                                <label for="checkbox-item-1">
-                                    <input type="checkbox" class="checkbox-item" id="checkbox-item-1" />
-                                    <div class="checkbox-customizado checked"></div>
-                                </label>
-                            </div>
-                            <p>Queijo Minas</p>
-                        </div>
-                        <div class="item_container">
-                            <button class="item-botao">
-                                <img src="img/edit.svg" alt="caneta simbolizando edição de item">
-                            </button>
-                            <button class="item-botao">
-                                <img src="img/delete.svg" alt="lixeira simbolizando exclusão de item">
-                            </button>
-                        </div>
-                    </div>
-                    <p id="item__data-hora">Segunda-feira 01/01/2024 à 08:30</p>
-                </li>
+                <!-- Intens inseridos serão listados aqui -->
             </ul>
         </div>
-        <!-- <div class="container-lista lista-comprados">
+        <div class="container-lista">
             <h2>Comprados</h2>
             <hr />
-        </div> -->
+            <ul id="lista-comprados">
+                 <!-- Itens marcados serão listados aqui  -->
+            </ul>
+        </div>
     </main>
     <script src="scripts.js"></script>
-
 </body>
 
 </html>

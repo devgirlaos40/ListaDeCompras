@@ -37,8 +37,21 @@ function salvarItem(evento) {
                     const labelCheckbox = document.createElement("label");
                     labelCheckbox.setAttribute("for", checkboxItem.id);
 
-                    const itemChecked = document.createElement("div");
-                    itemChecked.classList.add("checkbox-customizado");
+
+                    labelCheckbox.addEventListener("click", function(evento){
+                        const inputCheckbox = evento.currentTarget.querySelector(".checkbox-item");
+                        const checkboxCustomizado = evento.currentTarget.querySelector(".checkbox-customizado");
+
+                        if(inputCheckbox.checked){
+                            checkboxCustomizado.classList.add("checked");
+                        }else{
+                            checkboxCustomizado.classList.remove("checked");
+                        }
+                        
+                    })  
+
+                    const itemCheckboxCustomizado = document.createElement("div");
+                    itemCheckboxCustomizado.classList.add("checkbox-customizado");
 
                 /*cria o parágrafo com nome do item */
                 const nomeDoItem = document.createElement("p");
@@ -74,9 +87,9 @@ function salvarItem(evento) {
     botaoDeletar.appendChild(imgBotaoDeletar);
     itemContainerBotoes.appendChild(botaoEditar);
     itemContainerBotoes.appendChild(botaoDeletar);
-    checkboxContainer.appendChild(checkboxItem);
+    labelCheckbox.appendChild(checkboxItem);
     checkboxContainer.appendChild(labelCheckbox);
-    checkboxContainer.appendChild(itemChecked);
+    labelCheckbox.appendChild(itemCheckboxCustomizado);
     itemContainerNome.appendChild(checkboxContainer);
     itemContainerNome.appendChild(nomeDoItem);
     containerItemDaLista.appendChild(itemContainerNome);

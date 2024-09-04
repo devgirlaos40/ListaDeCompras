@@ -155,7 +155,7 @@ ul {
     position: relative;
 }
 
-.checked::after{
+.checkbox-customizado.checked::after{
         content: "";
         position: absolute;
         left: 30%;
