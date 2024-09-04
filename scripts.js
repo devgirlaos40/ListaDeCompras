@@ -1,4 +1,6 @@
+ //import { limpaInput } from "./js/limpaInput.js";
 
+const itemNovo = document.getElementById("input-item");
 const botaoSalvarItem = document.getElementById("botao-salvar-item");
 const listaComprar = document.getElementById("lista-comprar"); /*<ul>*/
 let contadorItem = 0;
@@ -9,11 +11,6 @@ botaoSalvarItem.addEventListener("click", salvarItem);
 function salvarItem(evento) {
 
     evento.preventDefault();
-
-    const itemNovo = document.getElementById("input-item");
-    // itemNovo.setAttribute("value", "1234567")
-    console.log(itemNovo.value);
-
 
     /*cria o li */
     const itemDaLista = document.createElement("li");
@@ -86,4 +83,14 @@ function salvarItem(evento) {
     containerItemDaLista.appendChild(itemContainerBotoes);
     itemDaLista.appendChild(containerItemDaLista);
     listaComprar.appendChild(itemDaLista);
+
+
+    limpaInput(itemNovo);
+
+}
+
+function limpaInput(input) {
+
+    input.value = "";
+
 }
