@@ -4,9 +4,11 @@ const listaComprar = document.getElementById("lista-comprar"); /*<ul>*/
 let contadorItem = 0;
 
 
-botaoSalvarItem.addEventListener("click", salvarItem());
+botaoSalvarItem.addEventListener("click", salvarItem);
 
-function salvarItem() {
+function salvarItem(evento) {
+
+    evento.preventDefault();
 
     const itemNovo = document.getElementById("input-item");
     // itemNovo.setAttribute("value", "1234567")
