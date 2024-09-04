@@ -11,6 +11,7 @@ function salvarItem() {
     const itemNovo = document.getElementById("input-item");
     // itemNovo.setAttribute("value", "1234567")
     console.log(itemNovo.value);
+    
     /*cria o li */
     const itemDaLista = document.createElement("li");
         /*cria a primeira div */
