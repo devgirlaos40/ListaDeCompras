@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,8 +11,14 @@
         rel="stylesheet">
     <link rel="stylesheet" href="./styles.css" />
 </head>
+
 <body>
     <main class="container-lista-de-compras">
+        <div class="titulo">
+            <hr />
+            <h1>Lista de Compras</h1>
+            <hr />
+        </div>
         <img src="img/bag.png" alt="sacola de compras">
         <form class="formulario">
             <input type="text" class="form__input-lista" id="input-item"
@@ -20,20 +27,26 @@
         </form>
         <div class="container-lista lista-de-compras">
             <ul id="lista-comprar">
-                <h2>Lista de Compras</h2>
+                <h2>Comprar</h2>
                 <hr />
                 <!-- Intens inseridos serão listados aqui -->
+                <p id="mensagem-lista-vazia" style="display: block">Sua lista está vazia. Adicione itens a ela para não
+                    esquecer nada na próxima compra!</p>
             </ul>
         </div>
-        <div class="container-lista">
-            <h2>Comprados</h2>
+        <div id="container-lista" class="container-lista" style="display: none;">
+            <h2 id="lista-itens-comprados">Comprados</h2>
             <hr />
             <ul id="lista-comprados">
-                 <!-- Itens marcados serão listados aqui  -->
+                <!-- Itens marcados serão listados aqui  -->
             </ul>
         </div>
     </main>
-    <script src="scripts.js"></script>
+    <footer class="rodape">
+        <p class="rodape__texto">Desenvolvido por Viviane Santana | <a href="https://instagram.com/devgirlaos40"
+                class="footer__instragram">@DevGirlAos40</a></p>
+    </footer>
+    <script src="scripts.js" type="module"></script>
 </body>
 
 </html>

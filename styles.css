@@ -2,6 +2,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+
 }
 
 :root {
@@ -27,6 +28,7 @@ body {
     flex-direction: column;
     /* Alinha os itens filhos ao centro do container */
     align-items: center;
+    margin-bottom: 0;
 }
 
 .container-lista-de-compras {
@@ -35,7 +37,7 @@ body {
     /* define a largura */
     width: 440px;
     /* define a margem externa que o elemento terá */
-    margin: 64px;
+    margin: 50px;
     /* define o raio da borda arredondada */
     border-radius: 16px;
     /* define a margem interna que o elemento terá */
@@ -50,8 +52,37 @@ body {
     gap: 24px;
 }
 
+.titulo {
+    width: 100%;
+    text-align: center;
+}
+
+.titulo hr{
+    margin: 0px;
+    border-bottom: 3px dotted var(--cor-secundaria);
+
+}
+
+h1 {
+    font-family: var(--fonte-titulo);
+    font-size: 24px;
+    color: var(--cor-secundaria);
+}
+
+h2 {
+    font-family: var(--fonte-titulo);
+    color: var(--cor-primaria);
+}
+
+hr {
+    border: none;
+    height: 3px;
+    border-bottom: 3px dotted var(--cor-primaria);
+    margin-bottom: 24px;
+}
+
 .formulario {
-    /* define o ontainer como flexível para alinhar os filhos */
+    /* define o container como flexível para alinhar os filhos */
     display: flex;
     /* Define a direção do conteúdo do container como vertical */
     flex-direction: column;
@@ -110,17 +141,6 @@ body {
     font-size: 12px;
 }
 
-h2 {
-    font-family: var(--fonte-titulo);
-    color: var(--cor-primaria);
-}
-
-hr {
-    border: none;
-    border-bottom: 3px dotted var(--cor-primaria);
-    margin-bottom: 24px;
-}
-
 ul {
     list-style-type: none;
     width: 100%;
@@ -155,16 +175,16 @@ ul {
     position: relative;
 }
 
-.checkbox-customizado.checked::after{
-        content: "";
-        position: absolute;
-        left: 30%;
-        top: -10%;
-        width: 5px;
-        height: 14px;
-        border-top: 2px solid var(--neutro);
-        border-left: 2px solid var(--neutro);
-        transform: rotate(-140deg);
+.checkbox-customizado.checked::after {
+    content: "";
+    position: absolute;
+    left: 30%;
+    top: -10%;
+    width: 5px;
+    height: 14px;
+    border-top: 2px solid var(--neutro);
+    border-left: 2px solid var(--neutro);
+    transform: rotate(-140deg);
 }
 
 p {
@@ -175,12 +195,36 @@ p {
     text-align: left;
 }
 
-.item-botao{
+.item-botao {
     background-color: transparent;
     border: none;
+    cursor: pointer;
 }
 
-#item__data-hora {
+.item__data-hora {
     font-size: 12px;
 
+}
+
+.mensagem-lista-vazia {
+    text-align: justify;
+}
+
+#mensagem-lista-vazia {
+    color: grey;
+    font-size: 14px;
+}
+
+.rodape {
+    position: fixed;
+    top: 97%;
+    width: 100vw;
+    background-color: var(--neutro);
+
+}
+
+.rodape__texto {
+    text-align: center;
+    font-family: var(--fonte-texto);
+    font-size: 12px;
 }
