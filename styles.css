@@ -1,13 +1,13 @@
 * {
-    box-sizing: border-box;
+    /* box-sizing: border-box; */
     margin: 0;
-    padding: 0;
-
+    padding: 0;    
 }
 
 :root {
-    --cor-primaria: #F55B64;
-    --cor-secundaria: #C2373F;
+    --cor-primaria: #f411c6;
+    --cor-secundaria: #a40a86;
+    --item: #26327F;
     --neutro: #F9F9F9;
     --preto: #131730;
     --fonte-titulo: "Krona One", sans-serif;
@@ -21,7 +21,7 @@ body {
     /* Define a cor do fundo do body.*/
     background: var(--degrade-azul) no-repeat;
     /* define que a nossa tela vai ocupar  100% da altura da tela do dispositivo */
-    height: 100%;
+    height: 100% !important;
     /* Deixa o container flexível para alinhar os filhos */
     display: flex;
     /* Define a direção do conteúdo do container como vertical */
@@ -34,9 +34,9 @@ body {
     /* define a cor do fundo do main */
     background-color: var(--neutro);
     /* define a largura */
-    width: 440px;
+    width: 400px;
     /* define a margem externa que o elemento terá */
-    margin: 50px;
+    margin: 40px;
     /* define o raio da borda arredondada */
     border-radius: 16px;
     /* define a margem interna que o elemento terá */
@@ -80,17 +80,20 @@ hr {
     margin-bottom: 24px;
 }
 
+img{
+    width: 60%;
+}
+
 .formulario {
     /* define o container como flexível para alinhar os filhos */
     display: flex;
-    /* Define a direção do conteúdo do container como vertical */
-    flex-direction: column;
     /* Alinha os itens filhos ao centro do container */
     align-items: center;
     /* define o espaçamento entre os elementos filhos do container */
     gap: 8px;
     /* define a margem inferior externa do elemento */
     margin-bottom: 24px;
+    width: 100%;
 }
 
 .form__input-lista {
@@ -109,23 +112,23 @@ hr {
     /* define a fonte que será utilizada nos textos do elemento */
     font-family: var(--fonte-formulario);
     /* define o estilo da borda do input */
-    border: 1px solid var(--preto);
+    border: 1px solid var(--item);
 }
 
 .form__input-lista::placeholder {
     /* define o alinhamento do texto dentro do elemento */
     text-align: center;
     /* define o tamanho da fonte do texto */
-    font-size: 16px;
-    line-height: 19px;
+    font-size: 14px;
+    line-height: 10px;
 
 }
 
 .form__botao {
     text-align: center;
-    width: 140px;
+    width: 100px;
     font-family: var(--fonte-texto);
-    font-size: 18px;
+    font-size: 14px;
     color: var(--neutro);
     background-color: var(--cor-primaria);
     border: none;
@@ -164,13 +167,14 @@ ul {
     width: 20px;
     height: 20px;
     background-color: var(--neutro);
-    border: 1px solid var(--preto);
+    border: 1px solid var(--item);
     cursor: pointer;
     border-radius: 4px;
 }
 
 .checked {
-    background-color: var(--preto);
+    background-color: rgb(46, 190, 166);
+    border: none;
     position: relative;
 }
 
@@ -178,7 +182,7 @@ ul {
     content: "";
     position: absolute;
     left: 30%;
-    top: -10%;
+    top: 0;
     width: 5px;
     height: 14px;
     border-top: 2px solid var(--neutro);
@@ -188,7 +192,8 @@ ul {
 
 p {
     font-family: var(--fonte-texto);
-    font-size: 18px;
+    color: var(--item);
+    font-size: 16px;
     font-weight: 400;
     line-height: 24px;
     text-align: left;
@@ -200,8 +205,15 @@ p {
     cursor: pointer;
 }
 
+.item-botao img{
+    width: 100%;
+}
+
+
+
 .item__data-hora {
     font-size: 12px;
+    color: #26327F;
 
 }
 

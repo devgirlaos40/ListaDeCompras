@@ -50,6 +50,7 @@ export function criarItemDaLista(item) {
             verificaListaCompradosVazia(listaComprados);
             verificaListaVazia(listaComprar);
             nomeDoItem.style.textDecoration = "line-through";
+            nomeDoItem.style.color= "rgb(46, 190, 166)";
             botaoEditar.style.display = "none";
             botaoDeletar.style.display = "none";
             origemDataHora = "itemComprado";
@@ -58,6 +59,7 @@ export function criarItemDaLista(item) {
             checkboxCustomizado.classList.remove("checked");
             listaComprar.appendChild(itemDaLista);
             nomeDoItem.style.textDecoration = "none";
+            nomeDoItem.style.color= "var(--item)";
             botaoEditar.style.display = "block";
             botaoDeletar.style.display = "block";
             verificaListaVazia(listaComprar);
