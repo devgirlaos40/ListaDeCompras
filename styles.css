@@ -21,14 +21,13 @@ body {
     /* Define a cor do fundo do body.*/
     background: var(--degrade-azul) no-repeat;
     /* define que a nossa tela vai ocupar  100% da altura da tela do dispositivo */
-    height: 100vh;
+    height: 100%;
     /* Deixa o container flexível para alinhar os filhos */
     display: flex;
     /* Define a direção do conteúdo do container como vertical */
     flex-direction: column;
     /* Alinha os itens filhos ao centro do container */
     align-items: center;
-    margin-bottom: 0;
 }
 
 .container-lista-de-compras {
@@ -215,16 +214,21 @@ p {
     font-size: 14px;
 }
 
-.rodape {
+/* .rodape {
     position: fixed;
     top: 97%;
     width: 100vw;
     background-color: var(--neutro);
 
-}
+} */
 
-.rodape__texto {
+.rodape {
     text-align: center;
     font-family: var(--fonte-texto);
     font-size: 12px;
+    color: var(--neutro);
+}
+
+a{
+    color: #b1ebf6;
 }

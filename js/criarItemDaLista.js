@@ -7,6 +7,7 @@ import { verificaListaVazia } from "./verificaListaVazia.js";
 
 const listaComprar = document.getElementById("lista-comprar"); /*<ul>*/
 const listaComprados = document.getElementById("lista-comprados");
+const tela = document.body;
 let contadorItem = 0;
 let origemDataHora = "";
 
@@ -126,5 +127,6 @@ export function criarItemDaLista(item) {
     itemDaLista.appendChild(containerItemDaLista);
     itemDaLista.appendChild(itemData);
 
+    //retorna o item criado com todos os elementos
     return itemDaLista;
 }
