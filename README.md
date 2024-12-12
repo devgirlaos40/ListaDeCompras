@@ -4,13 +4,28 @@
 
 # Lista de Compras Interativa
 </div>
+
+<div align="center">
+
+<p align="center">
+  <a href="#descrição-do-projeto">Descrição</a> •
+  <a href="#tecnologias-utilizadas">Tecnologias</a> •
+  <a href="#estrutura-do-projeto">Estrutura</a> •
+  <a href="#aprendizado">Aprendizado</a> •
+  <a href="#autoria">Autoria</a> •
+  <a href="#contribua">Contribuições</a>
+</p>
+</div>
+
+## <img height="30" src="https://em-content.zobj.net/source/telegram/386/memo_1f4dd.webp"/> Descrição do Projeto
+
 Este projeto consiste em uma aplicação web simples de lista de compras, desenvolvida com HTML, CSS e JavaScript. Foi desenvolvido como projeto prático do curso  <b><i>JavaScript: construindo páginas dinâmicas</b></i> da Formação <b>Desenvolvimento Front-end</b> da Alura.
 
 ## ***Layout***
 
 ![screenshot](https://github.com/devgirlaos40/ListaDeCompras/blob/main/readme/listadecompras.gif)
 
-## *Funcionalidades da aplicação*
+##  *Funcionalidades da aplicação*
 
 A aplicação permite aos usuários:
 
@@ -21,10 +36,10 @@ A aplicação permite aos usuários:
 - ***Excluir itens:*** Remover itens da lista.
 - ***Visualizar data e hora de criação dos itens:*** Acompanhar quando cada item foi adicionado à lista.
 
-## Tecnologias Utilizadas
+## 🔎 Tecnologias Utilizadas
 
 <div width="100%" align="center">
-<p>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<b>HTML</b>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<b>CSS</b>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<b>JavaScript</b>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<b>GIT</b><br>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<img src="./readme/html.png" height="40"> &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+<p>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<b>HTML</b>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<b>CSS</b>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<b>JavaScript</b>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<b>GIT</b><br>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<img src="./readme/html.png" height="40"> &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
 <img src="./readme/css.png" height="40"/>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
 <img src="./readme/javascript.png" height="40"/>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
 <img src="./readme/git.png" height="40"/>
@@ -38,7 +53,7 @@ A aplicação permite aos usuários:
   
 
 
-## Estrutura do Projeto
+## 👷🏼‍♂️ Estrutura do Projeto
 
 Abaixo os diretórios e arquivos do projeto e suas descrições:
 
@@ -54,7 +69,7 @@ Abaixo os diretórios e arquivos do projeto e suas descrições:
 ***readme.md***|Arquivo| Arquivo que contém as informações acerca do projeto|
 
 
-## Como Executar o Projeto
+## ▶️ Como Executar o Projeto
 Existem duas formas de visualizar uma demonstração do projeto:
 
 1 - Acessar diretamente no seu navegador, clicando no link <a href="https://devgirlaos40.github.io/ListaDeCompras/">http://devgirlaos40.github.io/ListaDeCompras/</a>
@@ -70,9 +85,9 @@ Existem duas formas de visualizar uma demonstração do projeto:
     *   clique em ```Abrir```
 
 
-## Aprendizado
+## 🧠 Aprendizado
 
-### Novas habilidades:
+### ➕ Novas habilidades:
 
 Ao desenvolver este projeto, pude conhecer os seguintes recursos do <u>Javascript</u>:
 
@@ -88,22 +103,22 @@ Ao desenvolver este projeto, pude conhecer os seguintes recursos do <u>Javascrip
 
 *   ***Módulos***: Organizar o código em módulos utilizando import e export para facilitar a manutenção e reutilização de funcionalidades.
 
-### Prática:
+### ✔️ Prática:
 
 Pude também praticar e me aprofundar nas habilidades já adquiridas em <u>HTML</u> e <u>CSS</u> de ***Construir interfaces web interativas*** para criar aplicações dinâmicas.
 
-## Próximos Passos
+## 👣 Próximos Passos
 Este projeto serve como base para explorar conceitos mais avançados em desenvolvimento web, como:
 
 *   ***Frameworks***: React, Angular, Vue.js
 *   ***Bibliotecas***: jQuery
 *   ***Banco de dados***: Armazenar a lista de compras em um banco de dados local ou remoto.
 
-## Autoria
+## 👩🏻‍💻 Autoria
 
 O projeto foi desenvolvido pela equipe de instrutores Front-End da Alura, para o curso ***Javascript: contruindo páginas dinâmicas*** da Formação ***Desenvolvimento Front-end: cursos para criar aplicações web com HTML, CSS e JavaScript***.
 
-# Contribua
+# 🕵🏻‍♀️Contribua
 
 Este projeto foi desenvolvido com muito carinho e dedicação. Espero que você tenha gostado! <br><br>
 Se você encontrar algum bug ou tiver alguma sugestão, por favor, abra um issue. <br><br>
