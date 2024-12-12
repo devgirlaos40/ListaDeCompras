@@ -4,11 +4,12 @@
 
 # Lista de Compras Interativa
 </div>
-Este projeto consiste em uma aplicação web simples de lista de compras, desenvolvida com HTML, CSS e JavaScript. Foi desenvolvido como projeto prático do curso  ***JavaScript: construindo páginas dinâmicas*** da Formação **Desenvolvimento Front-end** da Alura.
+Este projeto consiste em uma aplicação web simples de lista de compras, desenvolvida com HTML, CSS e JavaScript. Foi desenvolvido como projeto prático do curso  <b><i>JavaScript: construindo páginas dinâmicas</b></i> da Formação <b>Desenvolvimento Front-end</b> da Alura.
 
 ## ***Layout***
+
 <div align="center">
-<img src="./readme/listadecompras.gif" height="300">
+<img src="./readme/listadecompras.gif">
 </div>
 
 ## *Funcionalidades da aplicação*
@@ -25,7 +26,7 @@ A aplicação permite aos usuários:
 ## Tecnologias Utilizadas
 
 <div width="100%" align="center">
-<p>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<b>HTML</b>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<b>CSS</b>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<b>JavaScript</b>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<b>GIT</b><br>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<img src="./readme/html.png" height="40"> &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+<p>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<b>HTML</b>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<b>CSS</b>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<b>JavaScript</b>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<b>GIT</b><br>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<img src="./readme/html.png" height="40"> &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
 <img src="./readme/css.png" height="40"/>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
 <img src="./readme/javascript.png" height="40"/>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
 <img src="./readme/git.png" height="40"/>
@@ -43,9 +44,7 @@ A aplicação permite aos usuários:
 
 Abaixo os diretórios e arquivos do projeto e suas descrições:
 
-[fa=check-circle /] rte
-
-||||
+|Nome|Tipo|Descrição|
 |---|---|---|
 ***index.html***|Arquivo|Arquivo principal que contém os elementos que compõem a página.|
 **CSS**|Pasta| Diretório que contém os arquivos de definição de estilo da página do aplicativo|
@@ -53,7 +52,7 @@ Abaixo os diretórios e arquivos do projeto e suas descrições:
 **JS**|Pasta|Diretório que agrupa os arquivos de lógicas das funcionalidades implementadas na aplicação|
 ***style.css***|Arquivo| Arquivo CSS responsável pela estilização da página.
 ***script.js***| Arquivo| Arquivo JavaScript que contém a lógica da aplicação.
-**README**|Pasta| Diretórioonde estão dispostas as imagens utilizadas no arquivo Readme do projeto.|
+**README**|Pasta| Diretório onde estão dispostas as imagens utilizadas no arquivo Readme do projeto.|
 ***readme.md***|Arquivo| Arquivo que contém as informações acerca do projeto|
 
 
@@ -65,7 +64,7 @@ Existem duas formas de visualizar uma demonstração do projeto:
 2 - Baixar o código e executar em seu computador:<br>
 *   Clone o repositório: <br>
 
-    *   ```git clone https://[seu-repositorio].git```
+    *   ```git clone https://devgirlaos40/ListaDeCompras.git```
 *   Abra o arquivo index: 
     *   clique no arquivo ```index.html``` com o botão direito do mouse
     *   selecione a opção ```Abrir Com...```
@@ -93,15 +92,7 @@ Ao desenvolver este projeto, pude conhecer os seguintes recursos do <u>Javascrip
 
 ### Prática:
 
-Pude também praticar e me aprofundar nas habilidades já adquiridas em <u>HTML</u> e <u>CSS</u>:
-
-*   ***Construir interfaces web interativas***: Utilizando HTML, CSS e JavaScript para criar uma aplicação dinâmica.
-*   Manipular o DOM: Alterar o conteúdo e a estrutura de uma página web de forma programática.
-*   Escrever JavaScript limpo e organizado: Utilizando funções, variáveis e módulos para estruturar o código.
-*   Gerenciar eventos: Responder a interações do usuário, como cliques em botões.
-*   Trabalhar com datas: Utilizar o objeto Date para registrar e formatar datas e horas.
-*   Separar a lógica da apresentação: Organizar o código em módulos para facilitar a manutenção.
-
+Pude também praticar e me aprofundar nas habilidades já adquiridas em <u>HTML</u> e <u>CSS</u> de ***Construir interfaces web interativas*** para criar aplicações dinâmicas.
 
 ## Próximos Passos
 Este projeto serve como base para explorar conceitos mais avançados em desenvolvimento web, como:
@@ -109,3 +100,9 @@ Este projeto serve como base para explorar conceitos mais avançados em desenvol
 *   ***Frameworks***: React, Angular, Vue.js
 *   ***Bibliotecas***: jQuery
 *   ***Banco de dados***: Armazenar a lista de compras em um banco de dados local ou remoto.
+
+## Licença
+
+O projeto foi desenvolvido pela equipe de instrutores Front-End da Alura, para o curso ***Javascript: contruindo páginas dinâmicas*** da Formação ***Desenvolvimento Front-end: cursos para criar aplicações web com HTML, CSS e JavaScript***.
+
+<br><br><br>
