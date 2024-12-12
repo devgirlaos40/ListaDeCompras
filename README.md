@@ -22,8 +22,9 @@
 Este projeto consiste em uma aplicação web simples de lista de compras, desenvolvida com HTML, CSS e JavaScript. Foi desenvolvido como projeto prático do curso  <b><i>JavaScript: construindo páginas dinâmicas</b></i> da Formação <b>Desenvolvimento Front-end</b> da Alura.
 
 ## ***Layout***
-
-![screenshot](https://github.com/devgirlaos40/ListaDeCompras/blob/main/readme/listadecompras.gif)
+<div align="center">
+<img src="https://github.com/devgirlaos40/ListaDeCompras/blob/main/readme/listadecompras.gif">
+</div>
 
 ##  *Funcionalidades da aplicação*
 
