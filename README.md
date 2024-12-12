@@ -8,9 +8,7 @@ Este projeto consiste em uma aplicação web simples de lista de compras, desenv
 
 ## ***Layout***
 
-<div align="center">
-<img src="./readme/listadecompras.gif">
-</div>
+![screenshot](https://github.com/devgirlaos40/ListaDeCompras/blob/main/readme/listadecompras.gif)
 
 ## *Funcionalidades da aplicação*
 
