@@ -124,7 +124,9 @@ O projeto foi desenvolvido pela equipe de instrutores Front-End da Alura, para o
 Este projeto foi desenvolvido com muito carinho e dedicação. Espero que você tenha gostado! <br><br>
 Se você encontrar algum bug ou tiver alguma sugestão, por favor, abra um issue. <br><br>
 Contribuições são mais do que bem-vindas! <br><br>
+
 No futuro, planejo adicionar ao projeto:
+*  Ajustar a aplicação para mobile
 *  Pesquisar item da lista
 *  Alterar o tema
 *  Melhorar a acessibilidade.<br><br>
