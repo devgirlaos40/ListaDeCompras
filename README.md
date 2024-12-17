@@ -40,7 +40,7 @@ A aplicação permite aos usuários:
 ## 🔎 Tecnologias Utilizadas
 
 <div width="100%" align="center">
-<p>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<b>HTML</b>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<b>CSS</b>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<b>JavaScript</b>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<b>GIT</b><br>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<img src="./readme/html.png" height="40"> &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+<p>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<b>HTML</b>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<b>CSS</b>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<b>JavaScript</b>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<b>GIT</b><br>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<img src="./readme/html.png" height="40"> &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
 <img src="./readme/css.png" height="40"/>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
 <img src="./readme/javascript.png" height="40"/>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
 <img src="./readme/git.png" height="40"/>
