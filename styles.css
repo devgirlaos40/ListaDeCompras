@@ -21,7 +21,7 @@ body {
     /* Define a cor do fundo do body.*/
     background: var(--degrade-azul) no-repeat;
     /* define que a nossa tela vai ocupar  100% da altura da tela do dispositivo */
-    height: 100% !important;
+    min-height: 100vh !important;
     /* Deixa o container flexível para alinhar os filhos */
     display: flex;
     /* Define a direção do conteúdo do container como vertical */
