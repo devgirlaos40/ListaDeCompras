@@ -235,6 +235,11 @@ p {
 } */
 
 .rodape {
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    width: 100vw;
+    padding: 10px;
     text-align: center;
     font-family: var(--fonte-texto);
     font-size: 12px;
