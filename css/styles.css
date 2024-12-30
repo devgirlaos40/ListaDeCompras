@@ -1,11 +1,10 @@
 * {
-    /* box-sizing: border-box; */
     margin: 0;
-    padding: 0;    
+    padding: 0;
 }
 
 :root {
-    --cor-primaria: #f411c6;
+    --cor-primaria: #f116c66b;
     --cor-secundaria: #a40a86;
     --item: #26327F;
     --neutro: #F9F9F9;
@@ -21,7 +20,7 @@ body {
     /* Define a cor do fundo do body.*/
     background: var(--degrade-azul) no-repeat;
     /* define que a nossa tela vai ocupar  100% da altura da tela do dispositivo */
-    min-height: 100vh !important;
+    min-height: 100vh;
     /* Deixa o container flexível para alinhar os filhos */
     display: flex;
     /* Define a direção do conteúdo do container como vertical */
@@ -56,7 +55,7 @@ body {
     text-align: center;
 }
 
-.titulo hr{
+.titulo hr {
     margin: 0px;
     border-bottom: 3px dotted var(--cor-secundaria);
 
@@ -80,20 +79,34 @@ hr {
     margin-bottom: 24px;
 }
 
-img{
-    width: 60%;
+img {
+    width: 40%;
 }
 
 .formulario {
     /* define o container como flexível para alinhar os filhos */
     display: flex;
+    flex-direction: column;
     /* Alinha os itens filhos ao centro do container */
     align-items: center;
     /* define o espaçamento entre os elementos filhos do container */
-    gap: 8px;
+    gap: 18px;
     /* define a margem inferior externa do elemento */
     margin-bottom: 24px;
     width: 100%;
+}
+
+.form_botoes{
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    
+}
+
+#botao-voltar{
+    width: 116.25px;
+    position: absolute;
+    left: 396px;
 }
 
 .form__input-lista {
@@ -113,29 +126,47 @@ img{
     font-family: var(--fonte-formulario);
     /* define o estilo da borda do input */
     border: 1px solid var(--item);
+
+    position: relative;  
+
 }
 
-.form__input-lista::placeholder {
+input#input-item.form__input-lista::placeholder {
     /* define o alinhamento do texto dentro do elemento */
     text-align: center;
     /* define o tamanho da fonte do texto */
-    font-size: 14px;
+    font-size: .8rem;
     line-height: 10px;
+}
+
+.form__input-lista:focus {
+    /* define o estilo da borda do input */
+    border: 1px solid var(--cor-primaria);
 
 }
 
 .form__botao {
-    text-align: center;
-    width: 100px;
     font-family: var(--fonte-texto);
+    padding: 8px 30px;
+    border-radius: 8px;
     font-size: 14px;
-    color: var(--neutro);
-    background-color: var(--cor-primaria);
-    border: none;
-    padding: 12px 16px;
-    border-radius: 24px;
-    line-height: 24px;
+    font-weight: 500;
+    color: var(--cor-secundaria);
+    text-shadow: none;
+    background: transparent;
     cursor: pointer;
+    box-shadow: transparent;
+    border: 2px solid var(--cor-secundaria);
+    transition: 0.5s ease;
+    user-select: none;
+}
+
+.form__botao:hover {
+    color: #ffffff;
+    background: var(--cor-primaria);
+    text-shadow: 0 0 2px #ffffff, 0 0 5px #ffffff, 0 0 10px #ffffff;
+    box-shadow: 0 0 1px var(--cor-primaria), 0 0 2px var(--cor-primaria), 0 0 3px var(--cor-primaria),
+        0 0 4px var(--cor-primaria);
 }
 
 .container-lista {
@@ -199,13 +230,18 @@ p {
     text-align: left;
 }
 
+.item_container p {
+    text-transform: capitalize;
+
+}
+
 .item-botao {
     background-color: transparent;
     border: none;
     cursor: pointer;
 }
 
-.item-botao img{
+.item-botao img {
     width: 100%;
 }
 
@@ -236,16 +272,16 @@ p {
 
 .rodape {
     position: static;
-    bottom: 0px;
-    left: 0px;
+    bottom: 0;
+    left: 0;
     width: 100vw;
-    padding: 10px;
+    padding: 10px 0;
     text-align: center;
     font-family: var(--fonte-texto);
     font-size: 12px;
     color: var(--neutro);
 }
 
-a{
+a {
     color: #b1ebf6;
 }
