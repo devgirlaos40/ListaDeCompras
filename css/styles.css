@@ -99,15 +99,10 @@ img {
 .form_botoes{
     display: flex;
     justify-content: space-between;
-    gap: 1rem;
-    
+    gap: 1rem;    
 }
 
-#botao-voltar{
-    width: 116.25px;
-    position: absolute;
-    left: 396px;
-}
+
 
 .form__input-lista {
     /* define as margens internas que o elemento terá. 
@@ -147,7 +142,7 @@ input#input-item.form__input-lista::placeholder {
 
 .form__botao {
     font-family: var(--fonte-texto);
-    padding: 8px 30px;
+    padding: .5rem 1rem;
     border-radius: 8px;
     font-size: 14px;
     font-weight: 500;
