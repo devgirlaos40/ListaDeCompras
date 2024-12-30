@@ -11,7 +11,7 @@ const tela = document.body;
 let contadorItem = 0;
 let origemDataHora = "";
 
-export function criarItemDaLista(item) {
+export function criaItemDaLista(item) {
 
     /*cria o li */
     const itemDaLista = document.createElement("li");
@@ -74,7 +74,9 @@ export function criarItemDaLista(item) {
 
     /*cria o parágrafo com nome do item */
     const nomeDoItem = document.createElement("p");
+    nomeDoItem.classList.add("item");
     /*atribui o valor digitado no input para o nome do item na lista */
+    //item = item.style.textTransform = "capitalize";
     nomeDoItem.innerText = item;
 
     /*cria segunda div */
