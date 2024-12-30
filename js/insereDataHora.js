@@ -14,4 +14,3 @@ export function insereDataHora(origem) {
     }
     return dataHoraItem;
 }
-

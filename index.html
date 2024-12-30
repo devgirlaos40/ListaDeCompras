@@ -9,8 +9,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat&family=Numans&display=swap"
         rel="stylesheet">
-    <link rel="icon" href="./img/cesta.ico"/>
-    <link rel="stylesheet" href="./styles.css" />
+    <link rel="stylesheet" href="./css/styles.css" />
 </head>
 
 <body>
@@ -20,14 +19,18 @@
             <h1>Lista de Compras</h1>
             <hr />
         </div>
-        <img src="img/img-Photoroom.png" alt="sacola de compras">
+        <img src="img/cesta.png" alt="sacola de compras">
         <form class="formulario">
+
             <input type="text" class="form__input-lista" id="input-item"
-                placeholder="Digite o item que deseja adicionar"></input>
-            <button class="form__botao" id="botao-salvar-item">Incluir</button>
+                placeholder="Digite o item que deseja adicionar ou pesquisar"></input>
+            <div class="form_botoes">
+            <button class="form__botao" id="botao-salvar-item">Incluir</button>           
+            <button class="form__botao" id="botao-buscar-item">Pesquisar</button>            
+        </div>
         </form>
         <div class="container-lista lista-de-compras">
-            <ul id="lista-comprar">
+            <ul id="lista-comprar" class="listaItens">
                 <h2>Comprar</h2>
                 <hr />
                 <!-- Intens inseridos serão listados aqui -->
@@ -47,7 +50,7 @@
         Desenvolvido por Viviane Santana | <a href="https://instagram.com/devgirlaos40"
                 class="footer__instragram">@DevGirlAos40</a>
     </footer>
-    <script src="scripts.js" type="module"></script>
+    <script src="./js/scripts.js" type="module"></script>
 </body>
 
 </html>
