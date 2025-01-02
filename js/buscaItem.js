@@ -6,6 +6,7 @@ const listaComprar = document.getElementById("lista-comprar");//seleciona as uls
 const listaComprados = document.getElementById("lista-comprados");//seleciona as uls de comprar
 const inputItem = document.getElementById("input-item");//seleciona o campos input onde o usuário informou o filtro da busca
 
+const tooltipBotaoIncluir = document.getElementById("tooltip");
 const botaoIncluir = document.getElementById("botao-salvar-item");
 const botaoVoltar = document.getElementById("botao-voltar");
 
@@ -22,7 +23,10 @@ export function buscaItem(evento) {
         ocultaItens(listaComprar, listaComprados, valorDigitado); //oculta os itens que não correspondem ao valor digitado
         limpaInput();//limpa o campo input
         botaoVoltar.style.display = "block";
-        botaoIncluir.style.display = "none";
+        botaoIncluir.disabled = true;
+        inputItem.setAttribute("placeholder", "Digite o que deseja pesquisar ou acione Voltar");
+        tooltipBotaoIncluir.title = "Clique em Voltar para habilitar a inclusão."
+        
     }
 }
 

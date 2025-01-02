@@ -13,6 +13,7 @@
     --fonte-texto: 'Numans', sans-serif;
     --degrade-azul: linear-gradient(180deg, #000000 0%, #26327F 100%);
     --fonte-formulario: "Montserrat", sans-serif;
+    --desabilitado: #575757;
 }
 
 
@@ -162,6 +163,13 @@ input#input-item.form__input-lista::placeholder {
     text-shadow: 0 0 2px #ffffff, 0 0 5px #ffffff, 0 0 10px #ffffff;
     box-shadow: 0 0 1px var(--cor-primaria), 0 0 2px var(--cor-primaria), 0 0 3px var(--cor-primaria),
         0 0 4px var(--cor-primaria);
+}
+
+.form__botao:disabled {
+    color: #575757;
+    background: #ffffff;
+    border: 2px solid #575757;
+    box-shadow: none;
 }
 
 .container-lista {
